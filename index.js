@@ -1,4 +1,6 @@
 
+document.querySelector("button").addEventListener("click", function restart(){
+
 //for Image 1
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //the math.floor is for the numbers to be regular and not with 0.23443 for example, the *6 is to make the numbers between 1-6 and the +1 is for not getting 0
@@ -34,3 +36,6 @@ if (randomNumber1 > randomNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
+
+});
